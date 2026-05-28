@@ -4,11 +4,11 @@ RansomCTI is a one-stop PowerShell CTI engine designed for threat intelligence a
 ```
 ransomware.live API
        ↓
-  RansomCTI.ps1  ← CTI Collection Engine
+RansomCTI.ps1  ← CTI Collection Engine
        ↓
-  Terminal Output  ← Analyst consumption
+Terminal Output  ← Analyst consumption
        ↓
-  .xlsx Report     ← SOC / Detection Engineering pipeline
+.xlsx Report     ← SOC / Detection Engineering pipeline
 ```
 
 # Features
@@ -29,12 +29,14 @@ ransomware.live API
 - ImportExcel module (only required for -ExportExcel flag)
 
 # Clone the repository
+```
 git clone https://github.com/Mik0yan/RansomCTI.git
 cd RansomCTI
-
+```
 # Run
+```
 .\RansomCTI.ps1 -ApiKey <your_api_key> -Mode <mode> [options]
-
+```
 ### Parameters
 
 | Parameter | Type | Description |

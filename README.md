@@ -127,4 +127,7 @@ MIT License — free to use, modify, and distribute with attribution.
 
 ---
 
+## Excel Export Preview
+<img width="859" height="475" alt="image" src="https://github.com/user-attachments/assets/43efdaae-5d98-4ead-828a-2618f6d245b8" />
+
 *Built for the blue team. Powered by ransomware.live.*

@@ -1,4 +1,15 @@
-# RansomCTI
+# RansomCTI — Ransomware CTI Collection Engine
+
+> A PowerShell-based CTI engine solely powered by the [ransomware.live](https://ransomware.live) API — collecting victim intelligence, threat actor profiling, MITRE ATT&CK TTPs, IOCs, and YARA rules with automated Excel export for SOC/Detection Engineering pipelines.
+
+**Author:** Kyaw Pyiyt Htet (Mik0yan)  
+**Language:** PowerShell 5.1+  
+**API Source:** [ransomware.live](https://ransomware.live)
+
+---
+
+## Overview
+
 RansomCTI is a one-stop PowerShell CTI engine designed for threat intelligence analysts, SOC teams, and detection engineers. It leverages the ransomware.live API to collect, normalize, and present ransomware threat intelligence directly from the terminal — and exports structured Excel reports ready for downstream SOC and detection engineering pipelines.
 
 ```

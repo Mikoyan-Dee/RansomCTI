@@ -11,17 +11,18 @@ Terminal Output  ← Analyst consumption
 .xlsx Report     ← SOC / Detection Engineering pipeline
 ```
 
-# Features
+---
 
-1. Victim Intelligence — Search victims by keyword, country, or retrieve recent attacks with executive summary (top countries, sectors, threat actors)
+## Features
 
-2. Threat Actor Profiling — Full group profile including overview, MITRE ATT&CK TTPs, exploited vulnerabilities, tools & utilities, and dark web infrastructure
+- **Victim Intelligence** — Search victims by keyword, country, or retrieve recent attacks with executive summary (top countries, sectors, threat actors)
+- **Threat Actor Profiling** — Full group profile including overview, MITRE ATT&CK TTPs, exploited vulnerabilities, tools & utilities, and dark web infrastructure
+- **IOC Harvesting** — Collect indicators across 6 types: `md5`, `sha256`, `ip`, `domain`, `email`, `btc`
+- **YARA Rules** — Retrieve YARA detection rules by threat group
+- **Excel Export Pipeline** — Automated `.xlsx` report with separated sheets for SOC/Detection Engineering handoff
+- **Executive Summary** — Automatic ranking of top threat actors, targeted sectors, and countries
 
-3. IOC Harvesting — Collect indicators across 6 types: md5, sha256, ip, domain, email, btc
-
-4. YARA Rules — Retrieve YARA detection rules by threat group
-
-5. Excel Export Pipeline — Automated .xlsx report with separated sheets for SOC/Detection Engineering handoff
+---
 
 # Requirements
 - PowerShell 5.1 or later

@@ -42,7 +42,7 @@ Terminal Output  ← Analyst consumption
 
 # Clone the repository
 ```
-git clone https://github.com/Mik0yan/RansomCTI.git
+git clone https://github.com/Mikoyan-Dee/RansomCTI.git
 cd RansomCTI
 ```
 # Run
